@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Savannah Creative Cyber | Low Country Cyber Solutions LLC</title>
+  <style>
+    :root {
+      --bg: #f8f7f3;
+      --card: #ffffff;
+      --text: #1c1c1c;
+      --muted: #4a4a4a;
+      --accent: #1f7a8c;
+      --accent-soft: #d6eef3;
+      --border: #e4e1d9;
+      --shadow: 0 16px 50px rgba(0, 0, 0, 0.07);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Space Grotesk", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    header {
+      padding: 48px 24px 32px;
+      background: linear-gradient(135deg, #0f4c5c, #1f7a8c);
+      color: #f7f9fb;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 12px;
+      font-size: 2.2rem;
+      letter-spacing: -0.02em;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.05rem;
+    }
+    .tag {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.14);
+      color: #e8f5f9;
+      font-size: 0.95rem;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    main { max-width: 960px; margin: -40px auto 64px; padding: 0 20px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px 24px;
+      box-shadow: var(--shadow);
+      margin-bottom: 18px;
+    }
+    h2 { margin: 0 0 12px; letter-spacing: -0.01em; }
+    h3 { margin: 18px 0 10px; }
+    ul { margin: 0; padding-left: 18px; color: var(--muted); }
+    li + li { margin-top: 6px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+    }
+    .muted { color: var(--muted); }
+    .cta {
+      display: inline-block;
+      padding: 12px 16px;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 10px;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      box-shadow: 0 10px 30px rgba(31, 122, 140, 0.35);
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+    .cta:hover { transform: translateY(-1px); box-shadow: 0 12px 36px rgba(31, 122, 140, 0.4); }
+    .cta:active { transform: translateY(0); }
+    .pill {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--text);
+      font-size: 0.9rem;
+      border: 1px solid #c5e5ec;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+    @media (max-width: 640px) {
+      header { padding: 38px 18px 28px; }
+      header h1 { font-size: 1.8rem; }
+      main { margin-top: -32px; }
+      .card { padding: 18px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Savannah Creative Cyber</h1>
+    <p>Security-first IT for Savannah's creative community.</p>
+    <div class="tag">Local 40-year-old art kid and Ranger vet protecting creative work.</div>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>What I Fix (in plain English)</h2>
+      <p class="muted">If you make art and rely on your computers, I help you avoid:</p>
+      <ul>
+        <li>Losing work if a laptop dies or gets stolen</li>
+        <li>Ransomware wiping out your catalog</li>
+        <li>Exposed remote access or open Wi-Fi letting strangers in</li>
+        <li>Scattered files and untested backups</li>
+      </ul>
+    </div>
+
+    <div class="card grid">
+      <div>
+        <h3>Creative Studio Security & Backup Checkup</h3>
+        <p class="muted">One-time, fixed price.</p>
+        <ul>
+          <li>Map where projects live (machines, drives, cloud) and how they move</li>
+          <li>Sanity check backups (aiming for 3-2-1) and test a simple restore path</li>
+          <li>Quick lock-down of easy attack paths (RDP/VPN, Wi-Fi, passwords/MFA, updates)</li>
+          <li>Short, plain-English report with the 5–10 most important fixes</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Managed Open-Source Monitoring</h3>
+        <p class="muted">Monthly, sized for small studios.</p>
+        <ul>
+          <li>Open-source monitoring (Wazuh/Elastic/Graylog) tuned for your setup</li>
+          <li>Logs from workstations, servers, NAS, firewalls/VPN</li>
+          <li>Plain-English monthly summary and clear incident steps during service hours</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Secure Remote Collab & Network Design</h3>
+        <p class="muted">Project-based.</p>
+        <ul>
+          <li>pfSense firewalls, segmented VLANs, hardened Wi-Fi</li>
+          <li>WireGuard/SSH VPN or zero-trust style access to studio resources</li>
+          <li>Hardened Windows/Linux and IAM (AD/Azure AD/Okta/GCP) with least privilege and MFA</li>
+          <li>Infrastructure as Code (Ansible/Terraform) where possible</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Extra Hands for IT Odds and Ends</h3>
+        <p class="muted">Scoped, no surprises.</p>
+        <ul>
+          <li>Light automation, setup, and fixes so your tools just work together</li>
+          <li>Predictable windows; no midnight surprises</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>How it works (no pressure)</h2>
+      <ol class="muted" style="padding-left: 18px; margin: 0;">
+        <li>Email me with "Checkup" in the subject: <a href="mailto:creative-security.falcon317@passinbox.com">creative-security.falcon317@passinbox.com</a></li>
+        <li>Quick discovery (20–30 min call or email Q&A)</li>
+        <li>I deliver the Checkup and, if you want, implement the top fixes</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>Pricing</h2>
+      <div class="pill">Checkup: starting at $350 (intro $300 for first 3 clients)</div>
+      <div class="pill">Monitoring: starting at $250/month (small studio)</div>
+      <div class="pill">Projects: starting at $800 (single studio setup)</div>
+    </div>
+
+    <div class="card" style="text-align: center;">
+      <h2>Contact</h2>
+      <p class="muted">Savannah local. Remote-first. Security-first, creativity-friendly.</p>
+      <a class="cta" href="mailto:creative-security.falcon317@passinbox.com">Email: creative-security.falcon317@passinbox.com</a>
+    </div>
+  </main>
+</body>
+</html>

@@ -23,6 +23,29 @@ I protect the work of local studios, artists, designers, and creators with affor
 - Remote-first; onsite only when truly needed
 - Evidence-based recommendations, no fear sales
 
+## For Savannah Creatives: What I Actually Do
+If you make art and rely on your computers, I help you avoid:
+- Losing work if a laptop dies or gets stolen
+- Ransomware wiping out your catalog
+- Exposed remote access or open Wi-Fi letting strangers in
+- Scattered files and untested backups
+
+### What you get in a Checkup (fixed price)
+- A map of where your projects live (machines, drives, cloud) and how they move
+- A sanity check on backups (aiming for 3-2-1) and a simple, tested restore path
+- A quick lock-down of easy attack paths (RDP/VPN, Wi-Fi, passwords/MFA, updates)
+- A short, plain-English report with the 5–10 most important fixes, prioritized
+
+### How it works (no pressure)
+1. Email me at creative-security.falcon317@passinbox.com with "Checkup" in the subject.
+2. We do a quick discovery (20–30 min call or email Q&A).
+3. I deliver the Checkup and, if you want, implement the top fixes.
+
+### Pricing
+- Checkup: starting at $350 (intro $300 for first 3 clients)
+- Ongoing monitoring: starting at $250/month (sized for small studios)
+- Projects (network/remote access): starting at $800 (single studio setup)
+
 ## Contact
 creative-security.falcon317@passinbox.com  
 Savannah local. Remote-first.
