@@ -74,13 +74,18 @@
     }
     .muted { color: var(--muted); }
     .cta {
-      display: inline-block;
-      padding: 12px 16px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 18px;
+      min-width: 240px;
+      max-width: 100%;
       background: var(--accent);
       color: #fff;
       border-radius: 10px;
       font-weight: 600;
       letter-spacing: 0.01em;
+      text-align: center;
       box-shadow: 0 10px 30px rgba(31, 122, 140, 0.35);
       transition: transform 0.12s ease, box-shadow 0.12s ease;
     }
