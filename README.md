@@ -2,6 +2,8 @@
 
 Security-first IT for Savannah's creative community.
 
+Savannah Creative Cyber is a client-facing campaign by Low Country Cyber Solutions LLC.
+
 I protect the work of local studios, artists, designers, and creators with affordable, open-source security that stays out of your way.
 
 ## Who I Help
